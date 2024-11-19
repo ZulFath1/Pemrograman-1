@@ -1,0 +1,7 @@
+a=int(input("Masukkan nilai 0-100:"))
+if a<0 or a>100: print("Nilai tidak Valid")
+elif a>=80: print("A")
+elif a>=70: print("B")
+elif a>=60: print("C")
+elif a>=50: print("D")
+elif a<50: print("E")

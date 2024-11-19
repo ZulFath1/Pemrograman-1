@@ -1,0 +1,7 @@
+waluh=int(input(""))
+if waluh <= -1 or waluh >= 100: print("Anda Menginput Melebihi Limit Bilangan")
+elif waluh == 0: print("Nol")
+elif waluh <= 10: print("Satuan")
+elif waluh <= 19: print("Belasan")
+elif waluh <= 99 and waluh >= 20: print("Puluhan")
+else: print("Anda Menginput Melebihi Limit Bilangan")
